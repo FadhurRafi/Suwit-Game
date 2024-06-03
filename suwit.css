@@ -31,9 +31,6 @@ section {
     /* border: 1px black solid; */
 }
 
-section .col {
-    /* margin: 1rem; */
-}
 
 section .col .p1Option {
     text-align: center;
@@ -49,12 +46,20 @@ section .col .p1Option .p1{
     font-size: 80px;
 }
 
-section .col .game_Result {
-    text-align: center;
+.d-none {
+    display: none; 
+}
+
+section .col #game_result{
     display: none;
+}
+
+.game_result {
+    display: block;
     border: 1px black solid;
     width: 200px;
     height: 200px;
+    text-align: center;
 }
 
 section .col .p2Option {
